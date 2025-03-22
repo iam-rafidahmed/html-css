@@ -1,9 +1,22 @@
 h1 {
-    color: red;
+    color: rgb(0, 255, 21);
+    text-align:center;
+  text-decoration: underline ;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 106);
+  /* border-width: 2px;
+  border-style: solid ;
+  border-color :black; */
+
+  /* writting all border attibute in one line */
+  border:5px solid black
+
+
 }
 
 body {
-    background-color: aqua;
+    background-color: rgb(43, 149, 191);
 }
 
 /* 
@@ -12,3 +25,37 @@ body {
     its an universal selector
 } 
     */
+
+  .myclass{
+
+        color: coral;
+    }
+
+  #heading1{
+    color: darkblue;
+  }  
+
+  #heading2{
+    color: rgb(139, 0, 63);
+  } 
+
+/* text allign */
+/* text decoration */
+
+h5{
+  text-align:center;
+  text-decoration: underline ;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 255, 98);
+  border-width: 2px;
+  border-style: solid ;
+  border-color :black;
+  border-radius: 10px;
+
+
+  /* margin padding */
+}
+
+/* text decoration none to undo every decoration */
+
